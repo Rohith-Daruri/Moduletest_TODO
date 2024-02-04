@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+}
+body{
+    background-color:#242424;
+}
+.navigation_bar{
+    position: relative;
+    top: 0px;
+    width: 100vw;
+    height: 150px;
+    background-color: black;
+}
+.navigation_bar img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: #1e6791;
+    border: 1px solid black ;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.title{
+  width: 400px;
+  margin: 20px;
+  height: 30px;
+  background-color: #242424;
+  border: 1px solid  white ;
+  border-radius: 20px;
+  color: white;
+}
+.adjust{
+    background-color: #242424;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 10px;
+}
+.font_style{
+    color: violet;
+    font-weight: 700;
+    margin: 20px;
+    font-size: 20px;
+}
+.add{
+    margin-right: auto;
+    margin-left: auto;
+    color: #1e6791;
+}
+.section1{
+    margin-top: 20px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+}
+.todo{
+    width: 1000px;
+    height: 60px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pointer1,.pointer2{
+    color: white;
+}
+#digit{
+    border: 2px solid #f5efef;
+    border-radius: 30px;
+    background-color: #242424;
+    margin-left: 5px;
+}
+
